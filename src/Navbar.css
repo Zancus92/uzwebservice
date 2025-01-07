@@ -1,0 +1,10 @@
+navbar-div{
+    display: flex;
+}
+nav-div{
+    margin:5px;
+}
+nav-div:hover{
+    font-weight: 500;
+    color:green;
+}
