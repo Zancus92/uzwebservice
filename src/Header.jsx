@@ -9,24 +9,18 @@ function Header() {
   const [count, setCount] = useState(0)
 
   return (
-    <container-div className="m-0">  
-      {/*<header-div className="m-0  ">
-        <p className="text-5xl font-extrabold">
-          <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#32702c] to-[#00ff62]">UZ</span>
-          -Informatica
-        </p>
-      </header-div>*/}
+    <container-div className="max-w-sm lg:max-w-screen-lg m-0">
       
       <Router>
       {/* Navbar di navigazione */}
-      <nav className="">
-        <ul className="py-4 flex space-x-4 bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
+      <nav className="w-full">
+        <ul className="w-full py-4 flex space-x-4 bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
           {/*<li>
               <img src={logoIco} className="w-12 ml-3" alt="Vite logo" />
           </li>*/}
 
           <li className="">
-              <p className="text-5xl font-extrabold ml-3  my-auto">
+              <p className="sm:text-xl lg:text-5xl font-extrabold ml-3  my-auto">
                 <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#11240f] to-[#058837]">UZ</span>
                 -Informatica
               </p>

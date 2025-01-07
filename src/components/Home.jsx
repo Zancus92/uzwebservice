@@ -15,13 +15,13 @@ function Home() {
 
   return (
     <div className="">
-      <div className="flex min-h-screen lg:w-screen m-0 bg-[#161513]">
+      <div className="flex min-h-screen w-screen m-0 bg-[#161513]">
         {/* Margine su tutto lo schermo */}
         <div className="w-full m-0">
-          <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
+          <div className="mx-auto lg:mb-[40px] lg:mt-[98px] lg:h-[213px] lg:w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
             <img src="../public/logo.ico" alt="" />
           </div>
-          <h1 className="text-center text-[55px] font-extrabold text-red">
+          <h1 className="text-center text-[20px] lg:text-[55px] font-extrabold text-red">
             Pensiamo noi <br />
             al tuo{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
