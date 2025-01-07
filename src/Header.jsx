@@ -14,13 +14,13 @@ function Header() {
       <Router>
       {/* Navbar di navigazione */}
       <nav className="w-full">
-        <ul className="w-full py-4 flex space-x-4 bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
+        <ul className="w-full lg:py-3 flex space-x-4 bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
           {/*<li>
               <img src={logoIco} className="w-12 ml-3" alt="Vite logo" />
           </li>*/}
 
           <li className="">
-              <p className="sm:text-xl lg:text-5xl font-extrabold ml-3  my-auto">
+              <p className="text-[18px] lg:text-5xl font-bold lg:font-extrabold ml-3  my-3 ">
                 <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#11240f] to-[#058837]">UZ</span>
                 -Informatica
               </p>
@@ -28,19 +28,19 @@ function Header() {
           <div className="flex my-auto ml-auto">
             <li className="m-3">
                 <Link to="/">
-                  <span className="text-black hover:text-white font-extrabold text-[22px]">Home</span>
+                  <span className="text-black hover:text-white font-bold lg:font-extrabold text-[15px] lg:text-[22px]">Home</span>
                 </Link>  {/* Link alla Home */}
             </li>
 
             <li className="m-3">
                 <Link to="/about">
-                <span className="text-black hover:text-white font-extrabold text-[22px]">About</span>
+                <span className="text-black hover:text-white font-bold lg:font-extrabold text-[15px] lg:text-[22px]">About</span>
                 </Link>  {/* Link alla pagina About */}
             </li>
 
             <li className="m-3">
                 <Link to="/contact">
-                <span className="text-black hover:text-white font-extrabold text-[22px]">Contact</span>
+                <span className="text-black hover:text-white font-bold lg:font-extrabold text-[15px] lg:text-[22px]">Contact</span>
                 </Link>  {/* Link alla pagina Contact */}
             </li>
           </div>

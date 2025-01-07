@@ -18,17 +18,17 @@ function Home() {
       <div className="flex min-h-screen w-screen m-0 bg-[#161513]">
         {/* Margine su tutto lo schermo */}
         <div className="w-full m-0">
-          <div className="mx-auto lg:mb-[40px] lg:mt-[98px] lg:h-[213px] lg:w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
+          <div className="mx-auto w-[80px] h-[80px] mb-[15px] mt-[40px] lg:mb-[40px] lg:mt-[98px] lg:h-[213px] lg:w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
             <img src="../public/logo.ico" alt="" />
           </div>
-          <h1 className="text-center text-[20px] lg:text-[55px] font-extrabold text-red">
+          <h1 className="text-center my-auto text-[24px] lg:text-[55px] font-extrabold text-red">
             Pensiamo noi <br />
             al tuo{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
-              sito web!
+              sito web
             </span>
           </h1>
-          <p className="mx-auto mt-[40px] mb-[54px] text-[24px] font-light text-[#C5C5C5] text-center max-w-xl">
+          <p className="mx-auto mt-[40px] mb-[54px] text-[20px] lg:text-[24px] font-light text-[#C5C5C5] text-center max-w-xl">
             Siti personalizzati, per ogni esigenza.
           </p>
           <div className="text-center">
