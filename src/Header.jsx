@@ -9,37 +9,47 @@ function Header() {
   const [count, setCount] = useState(0)
 
   return (
-    <container-div className="">  
-      <header-div className="m-0  ">
+    <container-div className="m-0">  
+      {/*<header-div className="m-0  ">
         <p className="text-5xl font-extrabold">
           <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#32702c] to-[#00ff62]">UZ</span>
           -Informatica
         </p>
-      </header-div>
+      </header-div>*/}
       
       <Router>
       {/* Navbar di navigazione */}
-      <nav className="px-5">
-        <ul className="py-5 flex justify-left m-3 space-x-4 rounded-md   bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
-        <li>
-            <img src={logoIco} className="w-12 ml-3" alt="Vite logo" />
-          </li>
+      <nav className="">
+        <ul className="py-4 flex space-x-4 bg-gradient-to-tr from-[#32702c] to-[#00ff62]">
+          {/*<li>
+              <img src={logoIco} className="w-12 ml-3" alt="Vite logo" />
+          </li>*/}
 
-          <li className="m-2 pl-5">
-            <Link to="/">
-              <span className="text-black">Home</span>
-            </Link>  {/* Link alla Home */}
+          <li className="">
+              <p className="text-5xl font-extrabold ml-3  my-auto">
+                <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#11240f] to-[#058837]">UZ</span>
+                -Informatica
+              </p>
           </li>
-          
-          <li className="my-2">
-            <Link to="/about">About</Link>  {/* Link alla pagina About */}
-          </li>
-          
-          <li className="my-2 pr-5">
-            <Link to="/contact">Contact</Link>  {/* Link alla pagina Contact */}
-          </li>
+          <div className="flex my-auto ml-auto">
+            <li className="m-3">
+                <Link to="/">
+                  <span className="text-black hover:text-white font-extrabold text-[22px]">Home</span>
+                </Link>  {/* Link alla Home */}
+            </li>
 
-          
+            <li className="m-3">
+                <Link to="/about">
+                <span className="text-black hover:text-white font-extrabold text-[22px]">About</span>
+                </Link>  {/* Link alla pagina About */}
+            </li>
+
+            <li className="m-3">
+                <Link to="/contact">
+                <span className="text-black hover:text-white font-extrabold text-[22px]">Contact</span>
+                </Link>  {/* Link alla pagina Contact */}
+            </li>
+          </div>
 
         </ul>
       </nav>

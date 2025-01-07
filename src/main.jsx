@@ -7,15 +7,12 @@ import Header from './Header.jsx'
 import Navbar from './Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <body className="w-screen flex">
-    <div className="">
+    <div className="m-0 w-full">
       <StrictMode>
         <Header />
         {/*<Navbar />*/}
         {/*<App />*/}
       </StrictMode>
     </div>
-    
-  </body>
   
 )

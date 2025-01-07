@@ -14,8 +14,8 @@ function About() {
     return( 
       <div>
         <div className="flex min-h-screen bg-[#161513]">
-          <div className="mx-auto">
-            <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] overflow-hidden rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
+          <div className="m-0">
+            <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
               <img src="../public/logo.ico" alt="" />
             </div>
             <h1 className="max-w-screen-sm text-center text-[55px] font-extrabold text-red">

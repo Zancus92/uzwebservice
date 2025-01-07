@@ -14,11 +14,11 @@ function Home() {
   };
 
   return (
-    <div className="min-w-screen">
-      <div className="flex min-h-screen px-4 sm:px-8 lg:px-16 bg-[#161513]">
+    <div className="">
+      <div className="flex min-h-screen lg:w-screen m-0 bg-[#161513]">
         {/* Margine su tutto lo schermo */}
-        <div className="w-full mx-auto">
-          <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] overflow-hidden rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
+        <div className="w-full m-0">
+          <div className="mx-auto mb-[40px] mt-[98px] h-[213px] w-[213px] rounded-full bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
             <img src="../public/logo.ico" alt="" />
           </div>
           <h1 className="text-center text-[55px] font-extrabold text-red">
@@ -34,12 +34,12 @@ function Home() {
           <div className="text-center">
             <button
               id="whatsapp"
-              className="text-gray-800 inline-block px-[30px] py-[16px] mr-[18px] bg-white rounded-full font-semibold text-[22px] bg-gradient-to-tr from-[#32702c] to-[#00ff62]"
+              className="text-gray-800 hover:text-white inline-block px-[30px] py-[16px] mr-[18px] bg-white rounded-full font-semibold text-[22px] bg-gradient-to-tr from-[#32702c] to-[#00ff62]"
               onClick={handleClick}
             >
               Contattaci
             </button>
-            <button className="text-white inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold text-[22px]">
+            <button className="text-white hover:bg-[#32702c] inline-block px-[30px] py-[16px] bg-transparent border-2 rounded-full font-semibold text-[22px]">
               Vedi Portfolio
             </button>
           </div>

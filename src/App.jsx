@@ -8,7 +8,7 @@ function App() {
 
   return (
     
-    <>
+    <div className="">
       <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9dff9d] to-[#3131ff]">
           Testo di prova
       </p>
@@ -21,7 +21,7 @@ function App() {
           count is {count}
         </button>
       </div>
-    </>
+    </div>
 
     
   )
